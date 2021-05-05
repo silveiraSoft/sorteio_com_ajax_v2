@@ -1,0 +1,28 @@
+{
+    "name": "silveirasoft/sorteio_com_ajax",
+    "description": "Projeto PHP e bootstrap para a gest\u0000o de Sorteio",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "silveiraSoft",
+            "email": "adalbertosn1982@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config":{
+        "vendor-dir": "lib",
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sorteios\\": "",
+            "Conection\\" : "lib/php/connect"
+
+        }
+    }
+}
